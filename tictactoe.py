@@ -125,7 +125,7 @@ def replay():
     Function that asks if they want to play again
     '''
 
-    input('Play again? Enter Y or N: ').upper()
+    choice = input('Play again? Enter Y or N: ').upper()
 
     return choice == 'Yes'
 
